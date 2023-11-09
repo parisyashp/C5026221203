@@ -1,0 +1,77 @@
+body{
+    background-color: #2A3235; 
+    text-align: center;
+    font: bold;
+    font-family: sans-serif;
+    align-items: center;
+}
+
+.pp-lingkaran-risya{
+        border-radius: 50%;
+        width: 96px;
+        height: 96px;
+        margin-bottom: 16px;
+}
+
+.font-indomie-risya{
+    margin: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: 775;
+    font-size: 20px;
+    line-height: 1.5;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.container-style-risya{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-margin-risya {
+    margin-bottom: 5px;
+}
+
+.link-style-risya {
+    border: 2px solid rgb(72, 94, 104);
+    background-color: rgb(255, 255, 255);
+    height: 56px;
+    width: 680px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border-radius: 14px;
+    color: rgb(42, 50, 53);
+    text-decoration: none;
+}
+
+.text-style-risya {
+    font-size: 16px;
+    margin-top: 18px;
+    color: #2A3235;
+}
+
+.risya-linktree {
+    align-items: center;
+    width: 100px;
+    height: 20px;
+}
+/*
+button{
+    border-radius: 4rem;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    z-index: 1;
+    top: 0;
+    right: 6px;
+    bottom: 0;
+    position: inherit;
+    cursor: pointer;
+    background-color: transparent;
+    background-image: none;
+}*/
+
