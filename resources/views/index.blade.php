@@ -1,9 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Tutorial Membuat CRUD Pada Laravel - www.malasngoding.com</title>
-</head>
-<body>
+@extends('master2')
+@section('judulhalaman','Data Pegawai')
+@section('konten')
 
 	<h2>www.malasngoding.com</h2>
 	<h3>Data Pegawai</h3>
@@ -13,7 +10,7 @@
 	<br/>
 	<br/>
 
-	<table border="1">
+	<table class="table table-striped table-hover">
 		<tr>
 			<th>Nama</th>
 			<th>Jabatan</th>
@@ -35,7 +32,5 @@
 		</tr>
 		@endforeach
 	</table>
-
-
-</body>
-</html>
+    {{ $pegawai->links() }}
+@endsection

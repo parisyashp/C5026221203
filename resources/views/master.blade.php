@@ -12,28 +12,24 @@
 <body>
 
 <div class="container">
-   <header>
-    <h2>Blog Parisya Saniya</h2>
-    <nav>
-        <a href="/blog">HOME</a>
-        |
-        <a href="/blog/tentang">TENTANG</a>
-        |
-        <a href="/blog/kontak">KONTAK</a>
-    </nav>
-</header>
-  <hr/>
-  <br/>
-@yield('judul')
-<br/>
-@yield('konten')
-<br/>
-<br/>
-<hr/>
-<footer>
-    <p>&copy; <a href="hhtps://www.malascoding.com">www.malasngoding.com</a>. 2019 - 2019</p>
-</footer>
-
+    <header>
+        <h2>Blog PS</h2>
+        <nav>
+            <a href="/blog">HOME</a>
+            |
+            <a href="/blog/tentang">TENTANG</a>
+            |
+            <a href="/blog/kontak">KONTAK</a>
+        </nav>
+    </header>
+    <hr/>
+    <br/>
+    @yield('judul')
+    <br/>
+    @yield('konten')
+    <footer>
+        <p>&copy; <a href="https://www.malasngoding.com">www.malasngoding.com</a>. 2018 - 2019</p>
+    </footer>
 </div>
 
 </body>
