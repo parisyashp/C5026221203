@@ -2,5 +2,5 @@
 <br/>
 <hr/>
 <footer>
-    <p>&copy; <a href="hhtps://www.malascoding.com">www.malasngoding.com</a>. 2019 - 2019</p>
+    <p>&copy; Parisya Saniya - 2023</p>
 </footer>

@@ -1,6 +1,7 @@
 DOCTYPE html>
 <html lang="en">
 <head>
+
   <title>@yield('judulhalaman')</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -36,3 +37,13 @@ DOCTYPE html>
           </li>
         </ul>
       </nav>
+<div class="container">
+
+  @yield('konten')
+
+  @include('footer')
+</div>
+
+
+</body>
+</html>
