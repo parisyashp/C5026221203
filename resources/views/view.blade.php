@@ -3,6 +3,7 @@
 
 @section('konten')
 
+
 	<h2><a href="https://www.malasngoding.com">www.malasngoding.com</a></h2>
 	<h3>Edit Pegawai</h3>
 
@@ -11,7 +12,13 @@
 	<br/>
 	<br/>
 
-	@foreach($pegawai as $p)
+    <div class="row">
+        <div class="col-4">
+
+        </div>
+        <div class="col-8">
+            @foreach($pegawai as $p)
+    <fieldset disabled>
 	<form action="/pegawai/update" method="post" class="form-horizontal">
 		{{ csrf_field() }}
         <div class="form-group row">
@@ -41,8 +48,13 @@
         </div>
 		<input type="hidden" name="id" value="{{ $p->pegawai_id }}"> <br/>
 
-		<input type="submit" value="Simpan Data" class="btn btn-primary">
+
 	</form>
+    </fieldset>
+    <a href="/pegawai"><input  type="submit" value="Oke" class="btn btn-primary"></a>
+    </div>
+
+</div>
 	@endforeach
 
     @endsection
