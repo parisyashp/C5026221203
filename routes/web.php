@@ -79,3 +79,9 @@ Route::get('/pegawai/hapus/{id}','App\Http\Controllers\PegawaiController@hapus')
 
 Route::get('/pegawai/view/{id}','App\Http\Controllers\PegawaiController@lihat');
 Route::get('/pegawai/cari','App\Http\Controllers\PegawaiController@cari');
+
+//route CRUD
+Route::get('/keranjang','App\Http\Controllers\KBController@index');
+Route::get('/keranjang/batal/{id}','App\Http\Controllers\KBController@batal');
+Route::get('/keranjang/beli/','App\Http\Controllers\KBController@beli');
+Route::post('/keranjang/store/','App\Http\Controllers\KBController@store');
