@@ -1,7 +1,5 @@
-DOCTYPE html>
 <html lang="en">
 <head>
-
   <title>@yield('judulhalaman')</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,7 +11,7 @@ DOCTYPE html>
 <body>
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
         <!-- Brand -->
-        <a class="navbar-brand" href="#">5026221203 Parisya Saniya H>P</a>
+        <a class="navbar-brand" href="#">5026221203 Parisya Saniya H.P</a>
 
         <!-- Links -->
         <ul class="navbar-nav">
@@ -31,8 +29,7 @@ DOCTYPE html>
             </a>
             <div class="dropdown-menu">
               <a class="dropdown-item" href="/pegawai">Pegawai</a>
-              <a class="dropdown-item" href="#">Link 2</a>
-              <a class="dropdown-item" href="#">Link 3</a>
+              <a class="dropdown-item" href="#">Sepatu</a>
             </div>
           </li>
         </ul>
