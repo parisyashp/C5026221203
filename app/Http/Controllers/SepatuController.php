@@ -82,4 +82,18 @@ class SepatuController extends Controller
 		return view('viewSepatu',['sepatu' => $sepatu]);
 
 	}
+    public function cari(Request $request)
+	{
+		// menangkap data pencarian
+		$cari = $request->cari;
+
+    		// mengambil data dari table pegawai sesuai pencarian data
+		$sepatu = DB::table('sepatu')
+		->where('kodesepatu',$cari)
+		->paginate();
+
+    		// mengirim data pegawai ke view index
+		return view('indexSepatu',['sepatu' => $sepatu, 'cari' => $cari]);
+
+	}
 }

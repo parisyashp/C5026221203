@@ -94,3 +94,4 @@ Route::get('/sepatu/edit/{id}','App\Http\Controllers\SepatuController@edit');
 Route::post('/sepatu/update','App\Http\Controllers\SepatuController@update');
 Route::get('/sepatu/hapus/{id}','App\Http\Controllers\SepatuController@hapus');
 Route::get('/sepatu/view/{id}','App\Http\Controllers\SepatuController@lihat');
+Route::get('/sepatu/cari','App\Http\Controllers\SepatuController@cari');

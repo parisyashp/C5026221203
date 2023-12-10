@@ -6,6 +6,15 @@
 	<h3>Pegawai</h3>
 
     <a href="/sepatu/tambah" class="btn btn-primary"> + Tambah Data Baru</a>
+    <br>
+    <br>
+    <h5>Cari Data Stock Sepatu:</h5>
+	<form action="/sepatu/cari" method="GET">
+		<input class="form-control" type="number" name="cari" placeholder="Kode sepatu" value="{{ old("cari", isset($cari) ? $cari : '') }}">
+
+		<input type="submit" value="CARI" class="btn btn-info">
+	</form>
+	<br/>
 
 	<table class="table table-striped table-hover">
 		<tr>
@@ -31,7 +40,5 @@
 		</tr>
 		@endforeach
 	</table>
-
     {{-- <!-- {{ $pegawai->links() }}--> --}}
-
 @endsection

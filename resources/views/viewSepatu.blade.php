@@ -5,7 +5,7 @@
 
 	<h3>Lihat Stock</h3>
 
-	<a href="/sepatu"> Kembali</a>
+	<a href="/sepatu" class="btn btn-info"> Kembali</a>
 
 	<br/>
 	<br/>
