@@ -98,4 +98,4 @@ Route::get('/sepatu/cari','App\Http\Controllers\SepatuController@cari');
 
 
 //route CRUD untuk chat
-Route::get('/chat','App\Http\Controllers\ChatController@show');
+Route::get('/chat','App\Http\Controllers\ChatController@index');
