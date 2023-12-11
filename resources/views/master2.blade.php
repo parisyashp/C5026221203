@@ -30,6 +30,7 @@
             <div class="dropdown-menu">
               <a class="dropdown-item" href="/pegawai">Pegawai</a>
               <a class="dropdown-item" href="/sepatu">Sepatu</a>
+              <a class="dropdown-item" href="/chat">Chat</a>
             </div>
           </li>
         </ul>

@@ -95,3 +95,7 @@ Route::post('/sepatu/update','App\Http\Controllers\SepatuController@update');
 Route::get('/sepatu/hapus/{id}','App\Http\Controllers\SepatuController@hapus');
 Route::get('/sepatu/view/{id}','App\Http\Controllers\SepatuController@lihat');
 Route::get('/sepatu/cari','App\Http\Controllers\SepatuController@cari');
+
+
+//route CRUD untuk chat
+Route::get('/chat','App\Http\Controllers\ChatController@show');
